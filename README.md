@@ -1,29 +1,33 @@
-```{=html}
+```
 <p align="center">
 ```
-`<img src="./assets/branding/tiamis-github-banner.png" alt="Tiamis AI Live Chat Banner" width="100%">`{=html}
-```{=html}
+`<img src="./assets/branding/tiamis-github-banner.png" alt="Tiamis AI Live Chat" width="100%">`
+```
 </p>
 ```
-# 🤖 Tiamis AI Live Chat
-
-```{=html}
+```
+<h1 align="center">
+```
+🤖 Tiamis AI Live Chat
+```
+</h1>
+```
+```
 <p align="center">
 ```
-`<strong>`{=html}AI-Powered Multilingual Live Chat & Customer Support
-Platform for WordPress`</strong>`{=html}
-```{=html}
+`<strong>`AI-Powered Multilingual Customer Communication Platform
+for WordPress`</strong>`
+```
 </p>
 ```
-```{=html}
+```
 <p align="center">
 ```
-![WordPress](https://img.shields.io/badge/WordPress-Plugin-21759B)
-![AI](https://img.shields.io/badge/AI-Powered-purple)
-![PHP](https://img.shields.io/badge/PHP-7.4%2B-blue)
-![License](https://img.shields.io/badge/License-GPLv2-green)
-
-```{=html}
+`<img src="https://img.shields.io/badge/WordPress-Plugin-21759B">`
+`<img src="https://img.shields.io/badge/AI-Powered-purple">`
+`<img src="https://img.shields.io/badge/PHP-7.4%2B-blue">`
+`<img src="https://img.shields.io/badge/License-GPLv2-green">`
+```
 </p>
 ```
 
@@ -31,9 +35,9 @@ Platform for WordPress`</strong>`{=html}
 
 ## 🌐 Documentation
 
--   [🇬🇧 English](#-english)
--   [🇸🇦 العربية](#-العربية)
--   [🇮🇷 فارسی](#-فارسی)
+-   🇬🇧 [English](#-english)
+-   🇸🇦 [العربية](#-العربية)
+-   🇮🇷 [فارسی](#-فارسی)
 
 ------------------------------------------------------------------------
 
@@ -41,68 +45,85 @@ Platform for WordPress`</strong>`{=html}
 
 ## Overview
 
-Tiamis AI Live Chat is a professional WordPress customer communication
-platform that combines AI assistance, live chat, operator management,
-messaging integrations, and multilingual support.
+Tiamis AI Live Chat is a professional WordPress customer support and
+communication plugin designed for websites that need fast, intelligent
+and organized conversations.
 
-It helps businesses improve customer engagement with a modern
-communication workflow.
+It combines AI assistance, live chat, operator management, messaging
+integrations, notifications and multilingual capabilities in one
+scalable platform.
 
-## Features
+## Core Features
 
-### AI Assistant
+### 🧠 AI Assistant
 
--   Smart reply suggestions
+-   AI-powered reply suggestions
 -   Faster customer responses
--   AI-powered conversation assistance
+-   Smart conversation assistance
+-   Improved support workflow
 
-### Live Chat
+### 💬 Live Chat Widget
 
--   Modern floating widget
+-   Modern floating chat interface
 -   Real-time conversations
--   Mobile-friendly interface
+-   Mobile-friendly experience
+-   Customizable customer interaction
 
-### Operator Management
+### 👥 Operator Management
 
--   Multiple operators
+-   Multiple support operators
 -   Conversation assignment
 -   Internal notes
 -   Customer history
+-   Conversation status management
 
-### Integrations
+### 📱 Messaging Integrations
 
--   Telegram support
--   Bale support
--   Extensible communication channels
+-   Telegram integration
+-   Bale integration
+-   Expandable communication channels
 
-### Localization
+### 🌍 Multilingual System
 
 -   English support
 -   Arabic support
 -   Persian support
--   RTL and LTR compatibility
+-   RTL/LTR compatibility
 
-### Security
+### 🔔 Notifications
+
+-   Browser notifications
+-   New message alerts
+-   Web Push support
+
+### 🔐 Security & Privacy
 
 -   WordPress capability checks
 -   Nonce validation
 -   Privacy controls
+-   Secure data handling
 
-------------------------------------------------------------------------
+## Use Cases
 
-# 🆚 Free vs Pro
+-   Online stores
+-   SaaS websites
+-   Business websites
+-   Support teams
+-   Agencies
+-   WordPress developers
 
-  Feature               Free      Pro
-  --------------------- --------- ----------
-  Live Chat             ✅        ✅
-  Multilingual          ✅        ✅
-  RTL/LTR               ✅        ✅
-  Operator Management   Basic     Advanced
-  AI Features           Basic     Advanced
-  Integrations          Limited   Extended
-  Automation            ❌        ✅
-  Analytics             Basic     Advanced
-  Priority Support      ❌        ✅
+## Free vs Pro
+
+  Feature            Free    Pro
+  ------------------ ------- ----------
+  Live Chat          ✅      ✅
+  Multilingual       ✅      ✅
+  RTL/LTR            ✅      ✅
+  AI Assistant       Basic   Advanced
+  Operator Tools     Basic   Advanced
+  Automation         ❌      ✅
+  Analytics          Basic   Advanced
+  Priority Support   ❌      ✅
 
 ------------------------------------------------------------------------
 
@@ -110,17 +131,18 @@ communication workflow.
 
 ## نظرة عامة
 
-Tiamis AI Live Chat إضافة WordPress احترافية لإنشاء نظام دعم عملاء ذكي
-يجمع بين الدردشة المباشرة والذكاء الاصطناعي وإدارة المحادثات.
+Tiamis AI Live Chat إضافة احترافية لـ WordPress لإنشاء نظام دعم عملاء
+ذكي يجمع بين الدردشة المباشرة والذكاء الاصطناعي وإدارة المحادثات.
 
 ## المميزات
 
--   مساعد ذكي
--   دردشة مباشرة
+-   مساعد ذكاء اصطناعي
+-   دردشة مباشرة حديثة
 -   إدارة الموظفين
 -   Telegram و Bale
 -   دعم RTL/LTR
--   دعم اللغات المتعددة
+-   دعم العربية والفارسية والإنجليزية
+-   إشعارات المتصفح
 -   أدوات الخصوصية
 
 ## مقارنة Free و Pro
@@ -142,28 +164,51 @@ Tiamis AI Live Chat إضافة WordPress احترافية لإنشاء نظام 
 Tiamis AI Live Chat یک افزونه حرفه‌ای وردپرس برای پشتیبانی آنلاین، چت
 هوشمند و مدیریت ارتباط با مشتری است.
 
-این افزونه ارتباط کاربران، اپراتورها و پیام‌رسان‌ها را در یک سیستم یکپارچه
-مدیریت می‌کند.
+این افزونه برای فروشگاه‌ها، سایت‌های خدماتی، شرکت‌ها و پروژه‌های حرفه‌ای
+وردپرس طراحی شده است.
 
-## امکانات
+## قابلیت‌ها
 
--   پاسخ‌یار هوش مصنوعی
--   چت آنلاین حرفه‌ای
--   مدیریت اپراتورها
--   اتصال Telegram و Bale
--   پشتیبانی فارسی، عربی و انگلیسی
--   پشتیبانی RTL/LTR
--   کنترل حریم خصوصی
+### هوش مصنوعی
 
-## مقایسه نسخه Free و Pro
+-   پیشنهاد پاسخ هوشمند
+-   کمک به اپراتورها
+-   افزایش سرعت پاسخگویی
 
-  قابلیت      Free   Pro
-  ----------- ------ ---------
-  چت آنلاین   ✅     ✅
-  چندزبانه    ✅     ✅
-  AI          پایه   پیشرفته
-  اتوماسیون   ❌     ✅
-  گزارش‌ها     پایه   پیشرفته
+### چت آنلاین
+
+-   ویجت چت مدرن
+-   گفتگوهای لحظه‌ای
+-   تجربه کاربری واکنش‌گرا
+
+### مدیریت اپراتورها
+
+-   چند اپراتور
+-   تخصیص گفتگو
+-   یادداشت داخلی
+-   مدیریت وضعیت مکالمه
+
+### پیام‌رسان‌ها
+
+-   اتصال Telegram
+-   اتصال Bale
+
+### چندزبانه
+
+-   فارسی
+-   عربی
+-   انگلیسی
+-   RTL/LTR
+
+## مقایسه Free و Pro
+
+  قابلیت       Free   Pro
+  ------------ ------ ---------
+  چت آنلاین    ✅     ✅
+  چندزبانه     ✅     ✅
+  هوش مصنوعی   پایه   پیشرفته
+  اتوماسیون    ❌     ✅
+  گزارش‌ها      پایه   پیشرفته
 
 ------------------------------------------------------------------------
 
@@ -175,33 +220,33 @@ Upload images into:
 assets/screenshots/
 ```
 
-Recommended files:
+Files:
 
 ``` text
 dashboard.png
 chat-widget.png
-inbox.png
+operator-inbox.png
 settings.png
 integrations.png
 ```
 
 Example:
 
-`<img src="./assets/screenshots/dashboard.png" width="100%">`{=html}
+`<img src="./assets/screenshots/dashboard.png" alt="Dashboard" width="100%">`
 
 ------------------------------------------------------------------------
 
 # 🎬 Demo
 
-`<img src="./assets/demo/tiamis-promotional-preview.gif" width="100%">`{=html}
+`<img src="./assets/demo/tiamis-promotional-preview.gif" alt="Demo" width="100%">`
 
 ------------------------------------------------------------------------
 
 # Installation
 
-1.  Upload plugin files.
+1.  Upload the plugin.
 2.  Activate from WordPress Dashboard.
-3.  Configure chat and integrations.
+3.  Configure AI, operators and integrations.
 
 ------------------------------------------------------------------------
 
@@ -212,8 +257,26 @@ Example:
 -   Initial release
 -   AI live chat system
 -   Multilingual support
+-   Telegram and Bale integrations
 -   Operator management
--   Messaging integrations
+
+------------------------------------------------------------------------
+
+# Roadmap
+
+-   Advanced AI providers
+-   Analytics dashboard
+-   Ticketing improvements
+-   More integrations
+-   Advanced automation
+
+------------------------------------------------------------------------
+
+# Security Policy
+
+Please report security issues privately.
+
+Include: - Description - Steps to reproduce - Possible impact
 
 ------------------------------------------------------------------------
 
