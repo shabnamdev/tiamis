@@ -1,7 +1,7 @@
 # 🤖 Tiamis AI Live Chat
 
 ![Tiamis AI Live Chat
-Banner](./assets/branding/tiamis-github-banner.png)
+Banner](././assets/branding/tiamis-github-banner.png)
 
 **AI-Powered Multilingual Customer Communication Platform for
 WordPress**
@@ -268,13 +268,13 @@ integrations.png
 
 Example:
 
-![Dashboard](./assets/screenshots/dashboard.png)
+![Dashboard](././assets/screenshots/dashboard.png)
 
 ------------------------------------------------------------------------
 
 # 🎬 Demo
 
-![Tiamis Demo](./assets/demo/tiamis-demo.gif)
+![Tiamis Demo](././assets/demo/tiamis-demo.gif)
 
 ------------------------------------------------------------------------
 
