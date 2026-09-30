@@ -317,4 +317,4 @@ GPLv2 or later
 
 # Developer
 
-Developed by SHABNAM.DEV
+Developed by <a href="https://shabnam.dev"> SHABNAM.DEV </a>
