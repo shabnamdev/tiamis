@@ -2,13 +2,13 @@
 
 ![Tiamis Banner](./assets/branding/tiamis-github-banner.png)
 
-**AI-Powered Multilingual Customer Communication Platform for
-WordPress**
+**AI-Powered Multilingual Live Chat, Ticketing & Customer Communication
+Platform for WordPress**
 
 ![WordPress](https://img.shields.io/badge/WordPress-Plugin-21759B)
-![PHP](https://img.shields.io/badge/PHP-7.4%2B-777BB4)
 ![AI](https://img.shields.io/badge/AI-Powered-purple)
-![License](https://img.shields.io/badge/License-GPL--2.0--or--later-blue)
+![PHP](https://img.shields.io/badge/PHP-7.4%2B-blue)
+![License](https://img.shields.io/badge/License-GPLv2-green)
 
 ------------------------------------------------------------------------
 
@@ -24,302 +24,312 @@ WordPress**
 
 ## Overview
 
-Tiamis AI Live Chat is a professional WordPress live communication and
-customer support plugin that combines website chat, Telegram, Bale
-messaging, AI assistance, operator management, browser notifications,
-privacy tools and multilingual capabilities.
+Tiamis AI Live Chat is a complete WordPress communication platform that
+combines live chat, AI assistance, ticket management, operator
+workspace, messaging integrations, analytics, privacy tools and
+developer APIs.
 
-Tiamis is built for businesses, agencies, online stores, support teams
-and developers who need a unified communication center inside WordPress.
+It is designed for businesses, agencies, online stores, SaaS platforms
+and professional WordPress websites that need a scalable customer
+support solution.
 
-## Main Features
+## Core Features
 
-### 💬 Live Chat Widget
+### Live Chat System
 
--   Floating chat widget
--   Shortcode support: `[shcd_tiamis]`
--   Real-time visitor conversations
+-   Floating website chat widget
+-   Visitor conversations
+-   Conversation history
+-   Guest and registered user support
+-   Shortcode integration
 -   Responsive interface
--   Customer interaction management
 
-### 🧠 AI Assistant
+### AI Assistant
 
--   AI reply suggestions
--   Automatic response mode
--   Cloudflare Workers AI support in Free edition
--   PRO providers preview:
+-   AI draft replies
+-   Automatic reply support
+-   Smart operator assistance
+-   Cloudflare Workers AI support
+-   PRO AI providers:
     -   OpenRouter
-    -   OpenAI-compatible API
+    -   OpenAI compatible APIs
     -   Ollama
 
-### 👥 Operator Workspace
+### Ticket System
 
--   Unified inbox
+-   Guest tickets
+-   Registered user tickets
+-   Tracking codes
+-   Ticket status management
+-   Operator replies
+-   File attachments
+-   Voice recording
+-   Message status
+
+### Operator Workspace
+
 -   Multiple operators
+-   Operator profiles
 -   Conversation assignment
+-   Internal notes
 -   Priority management
 -   Tags
--   Internal notes
 -   Tasks
 -   Customer history
 
-### 📱 Messaging Integrations
+### Messaging Integrations
 
 -   Telegram Bot integration
 -   Bale integration
--   Two-way messaging workflow
--   Webhook and polling support
+-   Two-way communication workflow
+-   Webhook support
 
-### 🌍 Multilingual System
+### Heatmap & Analytics
 
-Supported languages:
+-   Click tracking
+-   Selector tracking
+-   Viewport information
+-   SPA navigation tracking
+-   Analytics dashboard
 
--   Persian
--   Arabic
--   English
-
-Features:
-
--   RTL support
--   LTR support
--   Translation-ready architecture
-
-### 🔔 Notifications
+### Notifications
 
 -   Browser notifications
 -   Web Push support
--   New conversation alerts
+-   New message alerts
 
-### 🔐 Privacy & Security
+### Security
 
--   WordPress capability validation
--   Nonce protection
+-   WordPress capability checks
+-   Nonce validation
 -   Rate limiting
--   Honeypot protection
 -   SSRF protection
+-   HMAC webhook signing
+-   Credential encryption
 -   Privacy export and erase tools
--   Configurable IP retention
+
+### Developer Features
+
+-   REST API
+-   Bearer token authentication
+-   Webhook events
+-   Extensible architecture
 
 ------------------------------------------------------------------------
 
-# 🆚 Free vs Pro Comparison
+# 🆚 Free / Trial vs Pro Comparison
 
-  Feature                 Free            Pro
+  Feature                 Free / Trial    Pro
   ----------------------- --------------- -----------------------
-  Live Chat Widget        ✅              ✅
-  Unified Inbox           ✅              ✅
-  Telegram Integration    ✅              ✅ Advanced
-  Bale Integration        ✅              ✅ Advanced
+  Live Chat               Included        Included
+  Ticket System           Basic           Advanced
   AI Assistant            Cloudflare AI   Multiple AI Providers
-  OpenRouter              ❌              ✅
-  OpenAI Compatible API   ❌              ✅
-  Ollama                  ❌              ✅
-  Ticket System           ❌              ✅
-  Heatmap Analytics       ❌              ✅
-  External REST API       ❌              ✅
-  Webhook Automation      ❌              ✅
-  Advanced Reports        ❌              ✅
-
-------------------------------------------------------------------------
-
-# 📸 Screenshots
-
-## Dashboard
-
-![Dashboard](./assets/screenshots/dashboard.png)
-
-More screenshots:
-
-``` text
-assets/screenshots/
-├── dashboard.png
-├── chat-widget.png
-├── inbox.png
-├── settings.png
-└── integrations.png
-```
+  OpenRouter              No              Yes
+  OpenAI Compatible API   No              Yes
+  Ollama                  No              Yes
+  Telegram                Included        Advanced
+  Bale                    Included        Advanced
+  Heatmap                 Limited         Full
+  Analytics               Basic           Advanced
+  REST API                No              Yes
+  Webhook Automation      No              Yes
+  Advanced Reports        No              Yes
 
 ------------------------------------------------------------------------
 
 # 🇸🇦 العربية
 
+::: {dir="rtl"}
 ## نظرة عامة
 
-Tiamis AI Live Chat إضافة احترافية لـ WordPress لإنشاء مركز اتصال ذكي
-يجمع الدردشة المباشرة والذكاء الاصطناعي ورسائل Telegram وBale وإدارة
-فريق الدعم.
+Tiamis AI Live Chat إضافة احترافية لـ WordPress توفر منصة متكاملة
+للتواصل مع العملاء من خلال الدردشة المباشرة، الذكاء الاصطناعي، نظام
+التذاكر، إدارة فريق الدعم، التكامل مع Telegram و Bale، والتحليلات.
 
-## المميزات
+تم تطوير الإضافة للشركات والمتاجر والمواقع الاحترافية التي تحتاج إلى
+نظام دعم سريع ومنظم.
 
-### الدردشة المباشرة
+## المميزات الرئيسية
+
+### نظام الدردشة المباشرة
 
 -   نافذة دردشة حديثة
--   محادثات فورية
--   دعم الشورت كود
--   إدارة الزوار
+-   محادثات الزوار
+-   حفظ سجل المحادثات
+-   دعم المستخدمين والزوار
+-   تصميم متجاوب
 
 ### الذكاء الاصطناعي
 
 -   اقتراح الردود
--   الرد التلقائي
--   Cloudflare Workers AI في النسخة المجانية
--   مزودات AI إضافية في Pro
+-   مساعدة المشغلين
+-   Cloudflare Workers AI
+-   مزودات Pro:
+    -   OpenRouter
+    -   OpenAI API
+    -   Ollama
 
-### إدارة الفريق
+### نظام التذاكر
 
--   صندوق محادثات موحد
+-   تذاكر للزوار
+-   تذاكر للمستخدمين
+-   أكواد متابعة
+-   حالات التذاكر
+-   مرفقات
+-   تسجيل صوتي
+
+### إدارة فريق الدعم
+
+-   عدة موظفين
 -   توزيع المحادثات
--   الأولوية
 -   الوسوم
+-   الأولوية
 -   الملاحظات
 
 ### التكاملات
 
--   Telegram
+-   Telegram Bot
 -   Bale
 -   Webhook
 
-### اللغات
+### الأمان
 
--   العربية
--   الفارسية
--   الإنجليزية
+-   التحقق من الصلاحيات
+-   حماية Nonce
+-   حماية SSRF
+-   تشفير البيانات
+-   أدوات الخصوصية
 
-دعم:
+## مقارنة Free / Trial و Pro
 
--   RTL
--   LTR
-
-------------------------------------------------------------------------
-
-# مقارنة Free و Pro
-
-  الميزة             Free   Pro
-  ------------------ ------ -------
-  الدردشة المباشرة   ✅     ✅
-  Telegram           ✅     متقدم
-  Bale               ✅     متقدم
-  مزودات AI متعددة   ❌     ✅
-  نظام التذاكر       ❌     ✅
-  Heatmap            ❌     ✅
-  API خارجي          ❌     ✅
+  الميزة             Free / Trial   Pro
+  ------------------ -------------- ---------------
+  الدردشة            متوفر          متوفر
+  التذاكر            أساسي          متقدم
+  الذكاء الاصطناعي   Cloudflare     مزودات متعددة
+  API                لا             نعم
+  Webhook            لا             نعم
+  Heatmap            محدود          كامل
+:::
 
 ------------------------------------------------------------------------
 
 # 🇮🇷 فارسی
 
+::: {dir="rtl"}
 ## معرفی
 
-Tiamis AI Live Chat یک افزونه حرفه‌ای وردپرس برای ایجاد مرکز ارتباط با
-مشتری است که چت آنلاین، هوش مصنوعی، تلگرام، بله، مدیریت اپراتورها و
-ابزارهای امنیتی را در یک سیستم یکپارچه ارائه می‌کند.
+Tiamis AI Live Chat یک پلتفرم کامل ارتباط با مشتری برای وردپرس است که چت
+آنلاین، هوش مصنوعی، سیستم تیکتینگ، مدیریت اپراتورها، اتصال پیام‌رسان‌ها،
+تحلیل رفتار کاربران و API توسعه‌دهندگان را در یک افزونه ارائه می‌کند.
 
-## قابلیت‌ها
+این افزونه برای فروشگاه‌ها، شرکت‌ها، سایت‌های خدماتی، آژانس‌ها و پروژه‌های
+حرفه‌ای وردپرس طراحی شده است.
+
+## قابلیت‌های اصلی
 
 ### چت آنلاین
 
--   ویجت چت شناور
--   شورت‌کد `[shcd_tiamis]`
--   مدیریت گفتگوها
+-   ویجت چت سایت
+-   ذخیره تاریخچه گفتگو
+-   پشتیبانی کاربر مهمان و عضو
+-   شورت‌کد نمایش چت
 -   طراحی واکنش‌گرا
 
 ### هوش مصنوعی
 
 -   پیشنهاد پاسخ هوشمند
--   پاسخ خودکار
--   Cloudflare Workers AI در نسخه رایگان
--   OpenRouter، OpenAI Compatible و Ollama در نسخه PRO
+-   کمک به اپراتورها
+-   Cloudflare Workers AI
+-   Provider های نسخه Pro:
+    -   OpenRouter
+    -   OpenAI Compatible API
+    -   Ollama
+
+### سیستم تیکتینگ
+
+-   تیکت کاربران مهمان
+-   تیکت کاربران عضو
+-   کد پیگیری
+-   وضعیت تیکت
+-   فایل پیوست
+-   ضبط صدا
+-   وضعیت مشاهده پیام
 
 ### مدیریت تیم پشتیبانی
 
--   صندوق گفتگو
 -   چند اپراتور
--   تخصیص مکالمه
+-   پروفایل اپراتورها
+-   اختصاص گفتگو
+-   یادداشت داخلی
 -   اولویت
 -   برچسب
--   یادداشت
 -   وظایف
 
 ### اتصال پیام‌رسان‌ها
 
--   Telegram
+-   Telegram Bot
 -   Bale
 -   Webhook
 
-### چندزبانه
+### Heatmap و Analytics
 
-پشتیبانی:
+-   ثبت کلیک‌ها
+-   تحلیل رفتار کاربر
+-   ردیابی SPA
+-   گزارش‌ها
 
--   فارسی
--   عربی
--   انگلیسی
+### امنیت
 
-امکانات:
+-   بررسی دسترسی وردپرس
+-   Nonce Security
+-   Rate Limit
+-   SSRF Protection
+-   امضای HMAC
+-   مدیریت حریم خصوصی
 
--   RTL
--   LTR
+## مقایسه نسخه Free / Trial و Pro
+
+  قابلیت       Free / Trial   Pro
+  ------------ -------------- --------------
+  چت آنلاین    دارد           دارد
+  تیکتینگ      پایه           پیشرفته
+  هوش مصنوعی   Cloudflare     چند Provider
+  OpenRouter   ندارد          دارد
+  OpenAI API   ندارد          دارد
+  Ollama       ندارد          دارد
+  API          ندارد          دارد
+  Webhook      ندارد          دارد
+  Heatmap      محدود          کامل
+  Analytics    پایه           پیشرفته
+:::
 
 ------------------------------------------------------------------------
 
-# مقایسه نسخه Free و Pro
+# 📸 Screenshots
 
-  قابلیت            Free    Pro
-  ----------------- ------- ---------
-  چت آنلاین         ✅      ✅
-  صندوق گفتگو       ✅      ✅
-  تلگرام            ✅      پیشرفته
-  بله               ✅      پیشرفته
-  Provider های AI   محدود   کامل
-  Ticketing         ❌      ✅
-  Heatmap           ❌      ✅
-  API خارجی         ❌      ✅
-  Automation        ❌      ✅
+![Dashboard](./assets/screenshots/dashboard.png)
 
 ------------------------------------------------------------------------
 
 # 🚀 Installation
 
-1.  Upload plugin ZIP.
+1.  Upload the plugin ZIP.
 2.  Activate Tiamis from WordPress Plugins.
-3.  Configure:
-    -   Chat widget
-    -   Operators
-    -   Bots
-    -   AI provider
-    -   Notifications
+3.  Configure chat, operators, AI providers and integrations.
 
 ------------------------------------------------------------------------
 
 # 📝 Changelog
 
-## 1.0.0
+## Version 1.0.3
 
--   Initial release
--   Multilingual live chat
--   Telegram and Bale integrations
--   AI assistant
--   Operator management
--   Privacy tools
--   PRO feature previews
-
-------------------------------------------------------------------------
-
-# 🛣 Roadmap
-
--   Advanced ticketing
--   More AI providers
--   Advanced analytics
--   Automation workflows
--   Additional integrations
+-   Chat persistence improvements
+-   Rating persistence fixes
+-   Stability improvements
 
 ------------------------------------------------------------------------
 
 # 📄 License
 
 GPL-2.0-or-later
-
-------------------------------------------------------------------------
-
-# Developer
-
-Developed by <a href="https://shabnam.dev"> SHABNAM.DEV </a>
