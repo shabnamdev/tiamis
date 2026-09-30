@@ -14,9 +14,9 @@ Platform for WordPress**
 
 ## 🌐 Documentation
 
--   [🇬🇧 English](#-english)
--   [🇸🇦 العربية](#-العربية)
--   [🇮🇷 فارسی](#-فارسی)
+-   🇬🇧 English
+-   🇸🇦 العربية
+-   🇮🇷 فارسی
 
 ------------------------------------------------------------------------
 
@@ -24,38 +24,37 @@ Platform for WordPress**
 
 ## Overview
 
-Tiamis AI Live Chat is a complete WordPress communication platform that
-combines live chat, AI assistance, ticket management, operator
-workspace, messaging integrations, analytics, privacy tools and
-developer APIs.
+Tiamis AI Live Chat is a complete WordPress customer communication
+platform that combines live chat, AI assistance, ticket management,
+operator workspace, messaging integrations, analytics, privacy controls
+and developer tools.
 
-It is designed for businesses, agencies, online stores, SaaS platforms
-and professional WordPress websites that need a scalable customer
-support solution.
+Designed for businesses, agencies, online stores, SaaS platforms and
+professional WordPress projects.
 
-## Core Features
+## Main Features
 
-### Live Chat System
+### 💬 Live Chat System
 
--   Floating website chat widget
--   Visitor conversations
+-   Modern floating chat widget
+-   Real-time visitor communication
 -   Conversation history
 -   Guest and registered user support
 -   Shortcode integration
 -   Responsive interface
 
-### AI Assistant
+### 🧠 AI Assistant
 
 -   AI draft replies
--   Automatic reply support
--   Smart operator assistance
+-   Automatic reply assistance
+-   Smart operator suggestions
 -   Cloudflare Workers AI support
--   PRO AI providers:
+-   Pro AI providers:
     -   OpenRouter
-    -   OpenAI compatible APIs
+    -   OpenAI Compatible API
     -   Ollama
 
-### Ticket System
+### 🎫 Ticket System
 
 -   Guest tickets
 -   Registered user tickets
@@ -63,10 +62,10 @@ support solution.
 -   Ticket status management
 -   Operator replies
 -   File attachments
--   Voice recording
--   Message status
+-   Voice messages
+-   Message delivery status
 
-### Operator Workspace
+### 👥 Operator Workspace
 
 -   Multiple operators
 -   Operator profiles
@@ -77,63 +76,56 @@ support solution.
 -   Tasks
 -   Customer history
 
-### Messaging Integrations
+### 📱 Integrations
 
 -   Telegram Bot integration
 -   Bale integration
--   Two-way communication workflow
--   Webhook support
+-   Webhook workflow
+-   External communication support
 
-### Heatmap & Analytics
+### 📊 Analytics & Heatmap
 
 -   Click tracking
--   Selector tracking
--   Viewport information
+-   User behavior analysis
+-   Heatmap visualization
 -   SPA navigation tracking
--   Analytics dashboard
+-   Performance insights
 
-### Notifications
+### 🔔 Notifications
 
 -   Browser notifications
 -   Web Push support
 -   New message alerts
 
-### Security
+### 🔐 Security & Privacy
 
--   WordPress capability checks
+-   Capability checks
 -   Nonce validation
 -   Rate limiting
 -   SSRF protection
--   HMAC webhook signing
--   Credential encryption
+-   HMAC webhook security
+-   Credential protection
 -   Privacy export and erase tools
-
-### Developer Features
-
--   REST API
--   Bearer token authentication
--   Webhook events
--   Extensible architecture
 
 ------------------------------------------------------------------------
 
-# 🆚 Free / Trial vs Pro Comparison
+# 🆚 Free / Trial vs Pro
 
-  Feature                 Free / Trial    Pro
-  ----------------------- --------------- -----------------------
-  Live Chat               Included        Included
-  Ticket System           Basic           Advanced
-  AI Assistant            Cloudflare AI   Multiple AI Providers
-  OpenRouter              No              Yes
-  OpenAI Compatible API   No              Yes
-  Ollama                  No              Yes
-  Telegram                Included        Advanced
-  Bale                    Included        Advanced
-  Heatmap                 Limited         Full
-  Analytics               Basic           Advanced
-  REST API                No              Yes
-  Webhook Automation      No              Yes
-  Advanced Reports        No              Yes
+  Feature                    Free / Trial    Pro
+  -------------------------- --------------- --------------------
+  💬 Live Chat               ✅              ✅
+  🎫 Ticket System           Basic           Advanced
+  🧠 AI Assistant            Cloudflare AI   Multiple Providers
+  🤖 OpenRouter              ❌              ✅
+  🔗 OpenAI Compatible API   ❌              ✅
+  🦙 Ollama                  ❌              ✅
+  📱 Telegram                ✅              Advanced
+  💚 Bale                    ✅              Advanced
+  📊 Heatmap                 Limited         Full
+  📈 Analytics               Basic           Advanced
+  🔌 REST API                ❌              ✅
+  🔔 Webhook Automation      ❌              ✅
+  ⚙️ Automation Rules        ❌              ✅
 
 ------------------------------------------------------------------------
 
@@ -142,75 +134,72 @@ support solution.
 ::: {dir="rtl"}
 ## نظرة عامة
 
-Tiamis AI Live Chat إضافة احترافية لـ WordPress توفر منصة متكاملة
-للتواصل مع العملاء من خلال الدردشة المباشرة، الذكاء الاصطناعي، نظام
-التذاكر، إدارة فريق الدعم، التكامل مع Telegram و Bale، والتحليلات.
-
-تم تطوير الإضافة للشركات والمتاجر والمواقع الاحترافية التي تحتاج إلى
-نظام دعم سريع ومنظم.
+Tiamis AI Live Chat إضافة احترافية لـ WordPress لإنشاء منصة متكاملة
+للتواصل مع العملاء تجمع بين الدردشة المباشرة، الذكاء الاصطناعي، نظام
+التذاكر، إدارة فريق الدعم، التكامل مع Telegram و Bale، التحليلات وأدوات
+المطورين.
 
 ## المميزات الرئيسية
 
-### نظام الدردشة المباشرة
+### 💬 نظام الدردشة المباشرة
 
 -   نافذة دردشة حديثة
--   محادثات الزوار
+-   محادثات فورية
 -   حفظ سجل المحادثات
--   دعم المستخدمين والزوار
--   تصميم متجاوب
+-   دعم الزوار والمستخدمين
+-   واجهة متجاوبة
 
-### الذكاء الاصطناعي
+### 🧠 المساعد الذكي
 
 -   اقتراح الردود
 -   مساعدة المشغلين
 -   Cloudflare Workers AI
 -   مزودات Pro:
     -   OpenRouter
-    -   OpenAI API
+    -   OpenAI Compatible API
     -   Ollama
 
-### نظام التذاكر
+### 🎫 نظام التذاكر
 
 -   تذاكر للزوار
 -   تذاكر للمستخدمين
 -   أكواد متابعة
 -   حالات التذاكر
--   مرفقات
--   تسجيل صوتي
+-   مرفقات ورسائل صوتية
 
-### إدارة فريق الدعم
+### 👥 إدارة فريق الدعم
 
--   عدة موظفين
+-   عدة مشغلين
 -   توزيع المحادثات
--   الوسوم
 -   الأولوية
+-   الوسوم
 -   الملاحظات
 
-### التكاملات
+### 📱 التكاملات
 
 -   Telegram Bot
 -   Bale
 -   Webhook
 
-### الأمان
+### 🔐 الأمان
 
 -   التحقق من الصلاحيات
--   حماية Nonce
--   حماية SSRF
--   تشفير البيانات
+-   حماية الطلبات
 -   أدوات الخصوصية
+-   حماية البيانات
 
 ## مقارنة Free / Trial و Pro
-
-  الميزة             Free / Trial   Pro
-  ------------------ -------------- ---------------
-  الدردشة            متوفر          متوفر
-  التذاكر            أساسي          متقدم
-  الذكاء الاصطناعي   Cloudflare     مزودات متعددة
-  API                لا             نعم
-  Webhook            لا             نعم
-  Heatmap            محدود          كامل
 :::
+
+  الميزة          Free / Trial   Pro
+  --------------- -------------- ---------------
+  💬 الدردشة      ✅             ✅
+  🎫 التذاكر      أساسي          متقدم
+  🧠 AI           Cloudflare     مزودات متعددة
+  🤖 OpenRouter   ❌             ✅
+  🔌 API          ❌             ✅
+  🔔 Webhook      ❌             ✅
+  📊 Heatmap      محدود          كامل
 
 ------------------------------------------------------------------------
 
@@ -221,22 +210,19 @@ Tiamis AI Live Chat إضافة احترافية لـ WordPress توفر منصة
 
 Tiamis AI Live Chat یک پلتفرم کامل ارتباط با مشتری برای وردپرس است که چت
 آنلاین، هوش مصنوعی، سیستم تیکتینگ، مدیریت اپراتورها، اتصال پیام‌رسان‌ها،
-تحلیل رفتار کاربران و API توسعه‌دهندگان را در یک افزونه ارائه می‌کند.
-
-این افزونه برای فروشگاه‌ها، شرکت‌ها، سایت‌های خدماتی، آژانس‌ها و پروژه‌های
-حرفه‌ای وردپرس طراحی شده است.
+تحلیل رفتار کاربران و ابزارهای توسعه‌دهندگان را در یک افزونه ارائه می‌کند.
 
 ## قابلیت‌های اصلی
 
-### چت آنلاین
+### 💬 چت آنلاین
 
--   ویجت چت سایت
+-   ویجت چت مدرن
+-   ارتباط لحظه‌ای با کاربران
 -   ذخیره تاریخچه گفتگو
--   پشتیبانی کاربر مهمان و عضو
+-   پشتیبانی مهمان و کاربر عضو
 -   شورت‌کد نمایش چت
--   طراحی واکنش‌گرا
 
-### هوش مصنوعی
+### 🧠 هوش مصنوعی
 
 -   پیشنهاد پاسخ هوشمند
 -   کمک به اپراتورها
@@ -246,63 +232,50 @@ Tiamis AI Live Chat یک پلتفرم کامل ارتباط با مشتری بر
     -   OpenAI Compatible API
     -   Ollama
 
-### سیستم تیکتینگ
+### 🎫 سیستم تیکتینگ
 
 -   تیکت کاربران مهمان
 -   تیکت کاربران عضو
 -   کد پیگیری
 -   وضعیت تیکت
 -   فایل پیوست
--   ضبط صدا
--   وضعیت مشاهده پیام
+-   پیام صوتی
 
-### مدیریت تیم پشتیبانی
+### 👥 مدیریت تیم
 
 -   چند اپراتور
--   پروفایل اپراتورها
--   اختصاص گفتگو
+-   تخصیص گفتگو
 -   یادداشت داخلی
 -   اولویت
 -   برچسب
 -   وظایف
 
-### اتصال پیام‌رسان‌ها
+### 📱 اتصال‌ها
 
--   Telegram Bot
+-   Telegram
 -   Bale
 -   Webhook
 
-### Heatmap و Analytics
-
--   ثبت کلیک‌ها
--   تحلیل رفتار کاربر
--   ردیابی SPA
--   گزارش‌ها
-
-### امنیت
+### 🔐 امنیت
 
 -   بررسی دسترسی وردپرس
 -   Nonce Security
 -   Rate Limit
 -   SSRF Protection
--   امضای HMAC
 -   مدیریت حریم خصوصی
 
 ## مقایسه نسخه Free / Trial و Pro
-
-  قابلیت       Free / Trial   Pro
-  ------------ -------------- --------------
-  چت آنلاین    دارد           دارد
-  تیکتینگ      پایه           پیشرفته
-  هوش مصنوعی   Cloudflare     چند Provider
-  OpenRouter   ندارد          دارد
-  OpenAI API   ندارد          دارد
-  Ollama       ندارد          دارد
-  API          ندارد          دارد
-  Webhook      ندارد          دارد
-  Heatmap      محدود          کامل
-  Analytics    پایه           پیشرفته
 :::
+
+  قابلیت          Free / Trial   Pro
+  --------------- -------------- --------------
+  💬 چت آنلاین    ✅             ✅
+  🎫 تیکتینگ      پایه           پیشرفته
+  🧠 هوش مصنوعی   Cloudflare     چند Provider
+  🤖 OpenRouter   ❌             ✅
+  🔗 API          ❌             ✅
+  🔔 Webhook      ❌             ✅
+  📊 Heatmap      محدود          کامل
 
 ------------------------------------------------------------------------
 
@@ -315,7 +288,7 @@ Tiamis AI Live Chat یک پلتفرم کامل ارتباط با مشتری بر
 # 🚀 Installation
 
 1.  Upload the plugin ZIP.
-2.  Activate Tiamis from WordPress Plugins.
+2.  Activate the plugin from WordPress.
 3.  Configure chat, operators, AI providers and integrations.
 
 ------------------------------------------------------------------------
