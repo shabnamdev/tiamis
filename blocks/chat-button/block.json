@@ -1,0 +1,22 @@
+{
+  "apiVersion": 3,
+  "name": "shcd-tiamis/chat-button",
+  "version": "1.0.0",
+  "title": "دکمه گفتگوی تیامیس",
+  "category": "widgets",
+  "icon": "format-chat",
+  "description": "دکمه‌ای برای بازکردن پنجره گفتگوی تیامیس.",
+  "textdomain": "shcd-tiamis",
+  "attributes": {
+    "label": {
+      "type": "string",
+      "default": "گفتگو با پشتیبانی"
+    }
+  },
+  "supports": {
+    "html": false,
+    "align": ["left", "center", "right"]
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./style.css"
+}

@@ -1,0 +1,294 @@
+.tiamis-live-chat{--rc:#38008a;--rc2:#6f2fc4;--bg:#fff;--text:#17132b;--muted:#6b6580;position:fixed;z-index:999999;bottom:24px;font-family:Tahoma,Arial,sans-serif;direction:rtl}.tiamis-position-left{left:24px}.tiamis-position-right{right:24px}.tiamis-theme-blue{--rc:#075985;--rc2:#0284c7}.tiamis-theme-green{--rc:#047857;--rc2:#10b981}.tiamis-theme-dark{--rc:#111827;--rc2:#374151;--bg:#111827;--text:#f9fafb;--muted:#cbd5e1}.shcd-tiamis-toggle{border:0;background:linear-gradient(135deg,var(--rc),var(--rc2));color:#fff;box-shadow:0 14px 40px rgba(30,20,70,.28);height:58px;min-width:58px;border-radius:18px;padding:0 17px;display:flex;align-items:center;gap:10px;cursor:pointer;font:700 14px/1 Tahoma,Arial}.shcd-tiamis-toggle-icon{font-size:24px}.shcd-tiamis-unread{position:absolute;top:-8px;right:-8px;background:#ef4444;color:#fff;border:3px solid #fff;border-radius:999px;min-width:24px;height:24px;line-height:18px;font-size:11px}.shcd-tiamis-panel{position:absolute;bottom:72px;width:min(390px,calc(100vw - 28px));height:min(610px,calc(100vh - 120px));background:var(--bg);color:var(--text);border-radius:24px;box-shadow:0 28px 80px rgba(25,16,52,.28);overflow:hidden;display:flex;flex-direction:column;opacity:0;visibility:hidden;transform:translateY(16px) scale(.98);transition:.22s ease}.tiamis-position-left .shcd-tiamis-panel{left:0}.tiamis-position-right .shcd-tiamis-panel{right:0}.tiamis-live-chat.is-open .shcd-tiamis-panel{opacity:1;visibility:visible;transform:none}.shcd-tiamis-header{background:linear-gradient(135deg,var(--rc),var(--rc2));color:#fff;padding:18px;display:flex;align-items:center;gap:12px}.shcd-tiamis-header img{width:46px;height:46px;border-radius:15px;object-fit:cover;border:2px solid rgba(255,255,255,.7)}.shcd-tiamis-header div{flex:1}.shcd-tiamis-header h3{margin:0 0 5px;font-size:16px;color:#fff}.shcd-tiamis-header p{margin:0;font-size:11px;opacity:.9;display:flex;gap:6px;align-items:center}.shcd-tiamis-header p i{width:8px;height:8px;background:#4ade80;border-radius:50%;box-shadow:0 0 0 4px rgba(74,222,128,.2)}.shcd-tiamis-close{border:0;background:rgba(255,255,255,.14);color:#fff;width:34px;height:34px;border-radius:12px;font-size:24px;cursor:pointer}.shcd-tiamis-body{flex:1;min-height:0;display:flex;flex-direction:column;background:linear-gradient(180deg,rgba(124,58,237,.04),transparent 30%)}.shcd-tiamis-messages{flex:1;overflow:auto;padding:18px;display:flex;flex-direction:column;gap:11px}.shcd-tiamis-message{display:flex}.shcd-tiamis-message>div{max-width:82%;padding:10px 12px;border-radius:15px;background:#f1eff7;display:flex;flex-direction:column;gap:6px}.shcd-tiamis-message.is-visitor{justify-content:flex-start}.shcd-tiamis-message.is-visitor>div{background:linear-gradient(135deg,var(--rc),var(--rc2));color:#fff;border-bottom-right-radius:4px}.shcd-tiamis-message.is-admin,.shcd-tiamis-message.is-ai,.shcd-tiamis-message.is-system{justify-content:flex-end}.shcd-tiamis-message.is-admin>div,.shcd-tiamis-message.is-ai>div{border-bottom-left-radius:4px}.shcd-tiamis-message.is-system>div{max-width:92%;background:rgba(124,58,237,.09);color:var(--text);align-self:center}.shcd-tiamis-message span{white-space:pre-wrap;font-size:13px;line-height:1.8}.shcd-tiamis-message small{font-size:9px;opacity:.65}.shcd-tiamis-notify{margin:0 18px 10px;border:1px solid rgba(124,58,237,.2);background:transparent;color:var(--rc);border-radius:12px;padding:8px;cursor:pointer;font:12px Tahoma}.shcd-tiamis-form{display:flex;gap:8px;padding:12px;border-top:1px solid rgba(100,90,130,.14);background:var(--bg)}.shcd-tiamis-form textarea{flex:1;resize:none;max-height:110px;border:1px solid #ddd8ea;border-radius:14px;padding:11px 12px;font:13px/1.7 Tahoma;color:var(--text);background:var(--bg);outline:0}.shcd-tiamis-form textarea:focus{border-color:var(--rc)}.shcd-tiamis-form button,.shcd-tiamis-profile button{border:0;background:linear-gradient(135deg,var(--rc),var(--rc2));color:#fff;border-radius:13px;min-width:46px;cursor:pointer;font-size:18px}.shcd-tiamis-panel footer{text-align:center;padding:7px;font-size:9px;color:var(--muted);background:var(--bg)}.shcd-tiamis-profile{padding:22px;overflow:auto}.shcd-tiamis-profile h4{margin:0 0 15px}.shcd-tiamis-profile label{display:block;font-size:12px;margin:0 0 12px;color:var(--muted)}.shcd-tiamis-profile input[type=text],.shcd-tiamis-profile input[type=email],.shcd-tiamis-profile input[type=tel]{width:100%;box-sizing:border-box;margin-top:6px;border:1px solid #ddd8ea;border-radius:12px;padding:10px;background:var(--bg);color:var(--text)}.shcd-tiamis-profile button{width:100%;padding:12px;font:700 13px Tahoma}.shcd-tiamis-consent{display:flex!important;gap:8px;align-items:flex-start;line-height:1.7}.shcd-tiamis-honeypot{position:absolute!important;left:-99999px!important;opacity:0!important}.shcd-tiamis-error{color:#b91c1c;font-size:11px;margin-top:8px}.tiamis-live-chat-inline{position:relative;left:auto!important;right:auto!important;bottom:auto}.tiamis-live-chat-inline .shcd-tiamis-panel{position:relative;bottom:auto;left:auto!important;right:auto!important;opacity:1;visibility:visible;transform:none}.tiamis-live-chat-inline .shcd-tiamis-toggle{display:none}@media(max-width:600px){.tiamis-live-chat{left:14px!important;right:14px!important;bottom:14px}.shcd-tiamis-toggle{margin-right:auto}.shcd-tiamis-panel{position:fixed;left:10px!important;right:10px!important;bottom:82px;width:auto;height:min(650px,calc(100vh - 96px));border-radius:20px}.shcd-tiamis-toggle-label{display:none}.shcd-tiamis-toggle{padding:0;width:58px;justify-content:center}}
+
+/* Tiamis bubble styles, motion, receipts and typing state. */
+.shcd-tiamis-message small{display:flex;align-items:center;gap:7px}.shcd-tiamis-receipt{display:inline-flex;min-width:18px;align-items:center;justify-content:center;color:rgba(255,255,255,.72);font-style:normal;font-weight:900;letter-spacing:-3px}.shcd-tiamis-receipt.is-seen{color:#61e6ff;text-shadow:0 0 9px rgba(97,230,255,.48)}.shcd-tiamis-typing{display:flex;align-items:center;gap:9px;margin:0 18px 10px;padding:9px 12px;border:1px solid rgba(56,0,138,.1);border-radius:15px;color:var(--muted);background:rgba(255,255,255,.72);box-shadow:0 7px 22px rgba(56,0,138,.07);font-size:11px}.shcd-tiamis-typing[hidden]{display:none}.shcd-tiamis-typing>span{display:flex;align-items:center;gap:3px}.shcd-tiamis-typing i{width:6px;height:6px;border-radius:50%;background:var(--rc);animation:tiamis-typing-dot 1.05s ease-in-out infinite}.shcd-tiamis-typing i:nth-child(2){animation-delay:.14s}.shcd-tiamis-typing i:nth-child(3){animation-delay:.28s}.shcd-tiamis-typing b{font-weight:600}.tiamis-live-chat.is-open .shcd-tiamis-toggle{animation-play-state:paused!important}.tiamis-live-chat .shcd-tiamis-toggle{position:relative;isolation:isolate;overflow:hidden;transition:transform .25s ease,box-shadow .25s ease,filter .25s ease}.tiamis-live-chat .shcd-tiamis-toggle>*{position:relative;z-index:2}.tiamis-live-chat .shcd-tiamis-toggle:before{position:absolute;z-index:1;inset:5px;border-radius:inherit;content:"";opacity:0;pointer-events:none;transition:opacity .25s ease,transform .25s ease}.tiamis-live-chat .shcd-tiamis-toggle:hover{transform:translateY(-3px) scale(1.025)}
+.tiamis-bubble-style-gradient .shcd-tiamis-toggle{background:linear-gradient(135deg,#38008a,#7541db 52%,#31c8ff);box-shadow:0 15px 42px rgba(56,0,138,.35)}
+.tiamis-bubble-style-glass .shcd-tiamis-toggle{border:1px solid rgba(255,255,255,.55);background:linear-gradient(135deg,rgba(56,0,138,.78),rgba(126,78,218,.58));box-shadow:0 18px 45px rgba(56,0,138,.25),inset 1px 1px 0 rgba(255,255,255,.48);backdrop-filter:blur(16px) saturate(1.35)}
+.tiamis-bubble-style-neon .shcd-tiamis-toggle{border:1px solid #6ce8ff;background:#170329;box-shadow:0 0 7px #5ee9ff,0 0 23px rgba(125,55,255,.92),0 0 50px rgba(56,0,138,.5)}.tiamis-bubble-style-neon .shcd-tiamis-toggle:before{opacity:1;box-shadow:0 0 23px #d246ff}
+.tiamis-bubble-style-soft .shcd-tiamis-toggle{color:#38008a;background:#eee8f7;box-shadow:10px 10px 22px rgba(56,0,138,.18),-8px -8px 20px #fff,inset 1px 1px 0 #fff}
+.tiamis-bubble-style-minimal .shcd-tiamis-toggle{color:#38008a;border:2px solid rgba(56,0,138,.16);background:#fff;box-shadow:0 10px 24px rgba(56,0,138,.12)}
+.tiamis-bubble-style-telegram .shcd-tiamis-toggle{background:linear-gradient(135deg,#2aabee,#1186c9);box-shadow:0 15px 38px rgba(42,171,238,.32)}
+.tiamis-bubble-style-cosmic .shcd-tiamis-toggle{background:radial-gradient(circle at 20% 20%,#ff6ce4,transparent 22%),radial-gradient(circle at 75% 20%,#48e8ff,transparent 20%),linear-gradient(145deg,#15032c,#51009a 58%,#0b5090);box-shadow:0 17px 45px rgba(44,5,105,.45)}
+.tiamis-bubble-style-liquid .shcd-tiamis-toggle{border-radius:42% 58% 54% 46%/46% 42% 58% 54%;background:linear-gradient(145deg,#300073,#7e3ee0);box-shadow:0 15px 38px rgba(56,0,138,.3);animation-name:tiamis-liquid-shape}
+.tiamis-bubble-style-outline .shcd-tiamis-toggle{color:#38008a;border:2px solid #38008a;background:rgba(255,255,255,.94);box-shadow:0 12px 32px rgba(56,0,138,.13)}
+.tiamis-bubble-style-crystal .shcd-tiamis-toggle{border:1px solid rgba(255,255,255,.68);background:linear-gradient(135deg,rgba(255,255,255,.72),rgba(143,91,230,.62));box-shadow:0 16px 42px rgba(56,0,138,.22),inset 0 0 20px rgba(255,255,255,.55);backdrop-filter:blur(14px)}
+.tiamis-bubble-style-square .shcd-tiamis-toggle{border-radius:12px;background:linear-gradient(145deg,#38008a,#6927c5);box-shadow:7px 7px 0 rgba(56,0,138,.15)}
+.tiamis-bubble-style-pill .shcd-tiamis-toggle{border-radius:999px;background:linear-gradient(90deg,#38008a,#7b42dc);box-shadow:0 13px 34px rgba(56,0,138,.28)}
+.tiamis-bubble-animation-float .shcd-tiamis-toggle{animation:tiamis-bubble-float 3s ease-in-out infinite}.tiamis-bubble-animation-pulse .shcd-tiamis-toggle{animation:tiamis-bubble-pulse 2.1s ease-in-out infinite}.tiamis-bubble-animation-bounce .shcd-tiamis-toggle{animation:tiamis-bubble-bounce 2.4s ease-in-out infinite}.tiamis-bubble-animation-shake .shcd-tiamis-toggle{animation:tiamis-bubble-shake 4.5s ease-in-out infinite}.tiamis-bubble-animation-swing .shcd-tiamis-toggle{transform-origin:top center;animation:tiamis-bubble-swing 3.8s ease-in-out infinite}.tiamis-bubble-animation-wobble .shcd-tiamis-toggle{animation:tiamis-bubble-wobble 4.2s ease-in-out infinite}.tiamis-bubble-animation-heartbeat .shcd-tiamis-toggle{animation:tiamis-bubble-heartbeat 2.3s ease-in-out infinite}.tiamis-bubble-animation-tada .shcd-tiamis-toggle{animation:tiamis-bubble-tada 5s ease-in-out infinite}.tiamis-bubble-animation-jelly .shcd-tiamis-toggle{animation:tiamis-bubble-jelly 3.4s ease-in-out infinite}.tiamis-bubble-animation-rotate .shcd-tiamis-toggle{animation:tiamis-bubble-rotate 8s linear infinite}.tiamis-bubble-animation-orbit .shcd-tiamis-toggle:before{opacity:.9;border:1.5px dashed rgba(255,255,255,.55);animation:tiamis-bubble-orbit 4s linear infinite}.tiamis-bubble-animation-glow .shcd-tiamis-toggle{animation:tiamis-bubble-glow 2.3s ease-in-out infinite}.tiamis-bubble-animation-wave .shcd-tiamis-toggle-icon{display:inline-block;animation:tiamis-bubble-wave 1.8s ease-in-out infinite}.tiamis-bubble-animation-pop .shcd-tiamis-toggle{animation:tiamis-bubble-pop 3.8s cubic-bezier(.2,.8,.2,1) infinite}.tiamis-bubble-animation-slide .shcd-tiamis-toggle{animation:tiamis-bubble-slide 3.7s ease-in-out infinite}
+@keyframes tiamis-typing-dot{0%,60%,100%{opacity:.35;transform:translateY(0)}30%{opacity:1;transform:translateY(-4px)}}@keyframes tiamis-liquid-shape{0%,100%{border-radius:42% 58% 54% 46%/46% 42% 58% 54%}50%{border-radius:57% 43% 39% 61%/55% 58% 42% 45%}}@keyframes tiamis-bubble-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}@keyframes tiamis-bubble-pulse{0%,100%{transform:scale(1);box-shadow:0 14px 40px rgba(56,0,138,.28)}50%{transform:scale(1.06);box-shadow:0 17px 50px rgba(56,0,138,.43)}}@keyframes tiamis-bubble-bounce{0%,70%,100%{transform:translateY(0)}80%{transform:translateY(-14px)}90%{transform:translateY(-5px)}}@keyframes tiamis-bubble-shake{0%,88%,100%{transform:translateX(0)}90%,94%,98%{transform:translateX(-5px)}92%,96%{transform:translateX(5px)}}@keyframes tiamis-bubble-swing{0%,80%,100%{transform:rotate(0)}85%{transform:rotate(7deg)}90%{transform:rotate(-6deg)}95%{transform:rotate(3deg)}}@keyframes tiamis-bubble-wobble{0%,80%,100%{transform:none}84%{transform:translateX(-7px) rotate(-4deg)}88%{transform:translateX(6px) rotate(3deg)}92%{transform:translateX(-3px) rotate(-2deg)}96%{transform:translateX(2px) rotate(1deg)}}@keyframes tiamis-bubble-heartbeat{0%,62%,100%{transform:scale(1)}68%{transform:scale(1.09)}74%{transform:scale(1)}80%{transform:scale(1.06)}}@keyframes tiamis-bubble-tada{0%,82%,100%{transform:none}85%{transform:scale(.94) rotate(-3deg)}88%,94%{transform:scale(1.07) rotate(3deg)}91%,97%{transform:scale(1.07) rotate(-3deg)}}@keyframes tiamis-bubble-jelly{0%,72%,100%{transform:scale(1)}78%{transform:scale(1.12,.88)}84%{transform:scale(.92,1.08)}90%{transform:scale(1.04,.96)}}@keyframes tiamis-bubble-rotate{to{transform:rotate(360deg)}}@keyframes tiamis-bubble-orbit{to{transform:rotate(360deg)}}@keyframes tiamis-bubble-glow{0%,100%{filter:brightness(1);box-shadow:0 13px 36px rgba(56,0,138,.3)}50%{filter:brightness(1.15);box-shadow:0 0 18px rgba(114,66,225,.75),0 0 45px rgba(49,200,255,.35)}}@keyframes tiamis-bubble-wave{0%,100%{transform:rotate(0)}25%{transform:rotate(18deg)}50%{transform:rotate(-12deg)}75%{transform:rotate(8deg)}}@keyframes tiamis-bubble-pop{0%,80%,100%{transform:scale(1)}84%{transform:scale(.8)}89%{transform:scale(1.13)}94%{transform:scale(.96)}}@keyframes tiamis-bubble-slide{0%,78%,100%{transform:translateX(0)}85%{transform:translateX(-9px)}92%{transform:translateX(5px)}}
+@media(prefers-reduced-motion:reduce){.tiamis-live-chat .shcd-tiamis-toggle,.tiamis-live-chat .shcd-tiamis-toggle:before,.shcd-tiamis-toggle-icon,.shcd-tiamis-typing i{animation:none!important}}
+.tiamis-bubble-animation-rotate .shcd-tiamis-toggle{animation:none}.tiamis-bubble-animation-rotate .shcd-tiamis-toggle-icon{display:inline-block;animation:tiamis-bubble-rotate 4.8s linear infinite}
+
+/* Tiamis — typography, expert avatars and strict pre-chat gate */
+.tiamis-live-chat{
+  --tiamis-widget-font:'Shabnam FD','Shabnam',Tahoma,Arial,sans-serif;
+  font-family:var(--tiamis-widget-font)!important;
+}
+.tiamis-live-chat *:not(.dashicons){font-family:var(--tiamis-widget-font)!important}
+.tiamis-live-chat [hidden]{display:none!important}
+.tiamis-live-chat .shcd-tiamis-panel{isolation:isolate}
+.tiamis-live-chat .shcd-tiamis-profile{
+  position:relative;
+  z-index:8;
+  flex:1 1 auto;
+  min-height:0;
+  width:100%;
+  padding:24px 22px;
+  overflow:auto;
+  background:var(--bg);
+}
+.tiamis-live-chat.is-profile-gate .shcd-tiamis-profile:not([hidden]){
+  display:block!important;
+  animation:tiamis-profile-enter .28s cubic-bezier(.2,.75,.25,1) both;
+}
+.tiamis-live-chat.is-profile-gate .shcd-tiamis-body,
+.tiamis-live-chat.is-profile-gate .shcd-tiamis-form{display:none!important;visibility:hidden!important;pointer-events:none!important}
+.tiamis-live-chat .shcd-tiamis-profile h4{font-size:18px;line-height:1.8;font-weight:800}
+.tiamis-live-chat .shcd-tiamis-profile label{font-size:13px;line-height:1.8}
+.tiamis-live-chat .shcd-tiamis-profile input[type=text],
+.tiamis-live-chat .shcd-tiamis-profile input[type=email],
+.tiamis-live-chat .shcd-tiamis-profile input[type=tel]{font-size:14px;line-height:1.7}
+.tiamis-live-chat .shcd-tiamis-toggle{font-size:14px;line-height:1.2}
+.tiamis-live-chat .shcd-tiamis-header h3{font-size:17px;line-height:1.5}
+.tiamis-live-chat .shcd-tiamis-header p{font-size:12px;line-height:1.7}
+.tiamis-live-chat .shcd-tiamis-toggle-agents,
+.tiamis-live-chat .shcd-tiamis-agent-stack{display:flex;align-items:center;direction:ltr;flex:0 0 auto}
+.tiamis-live-chat .shcd-tiamis-toggle-agents{position:relative;min-width:38px;height:36px;padding-inline-end:4px}
+.tiamis-live-chat .shcd-tiamis-toggle-agents img,
+.tiamis-live-chat .shcd-tiamis-toggle-agents i{
+  width:30px;height:30px;margin-inline-start:-11px;border:2px solid rgba(255,255,255,.92);border-radius:50%;object-fit:cover;
+  display:grid;place-items:center;background:linear-gradient(145deg,#fff,#e7dcfa);color:#38008a;font-style:normal;font-size:12px;font-weight:800;
+  box-shadow:0 4px 10px rgba(29,7,70,.22)
+}
+.tiamis-live-chat .shcd-tiamis-toggle-agents img:first-child,
+.tiamis-live-chat .shcd-tiamis-toggle-agents i:first-child{margin-inline-start:0}
+.tiamis-live-chat .shcd-tiamis-toggle-agents b{
+  position:absolute;right:-4px;bottom:-4px;display:grid;width:21px;height:21px;place-items:center;border:2px solid #fff;border-radius:50%;
+  background:linear-gradient(135deg,var(--rc),var(--rc2));font-size:11px;line-height:1
+}
+.tiamis-live-chat .shcd-tiamis-agent-stack{min-width:52px}
+.tiamis-live-chat .shcd-tiamis-agent-stack img,
+.tiamis-live-chat .shcd-tiamis-agent-stack i{
+  width:44px;height:44px;margin-inline-start:-14px;border:2px solid rgba(255,255,255,.82);border-radius:14px;object-fit:cover;
+  display:grid;place-items:center;background:rgba(255,255,255,.22);color:#fff;font-style:normal;font-weight:800;
+  box-shadow:0 6px 16px rgba(26,4,65,.18)
+}
+.tiamis-live-chat .shcd-tiamis-agent-stack img:first-child,
+.tiamis-live-chat .shcd-tiamis-agent-stack i:first-child{margin-inline-start:0}
+@keyframes tiamis-profile-enter{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@media(max-width:600px){
+  .tiamis-live-chat .shcd-tiamis-toggle{width:auto;min-width:58px;padding-inline:10px}
+  .tiamis-live-chat .shcd-tiamis-toggle-agents{min-width:40px}
+}
+
+
+/* Tiamis — active expert profile and message sounds UI */
+.tiamis-live-chat .shcd-tiamis-agent-stack{position:relative;min-width:76px;height:54px;align-items:flex-end;padding-inline-end:4px}
+.tiamis-live-chat .shcd-tiamis-agent-stack [data-tiamis-agent-profile]{width:30px;height:30px;margin-inline-start:-10px;border-radius:10px;opacity:.78;transform:translateY(7px) scale(.92);transition:width .22s ease,height .22s ease,transform .22s ease,opacity .22s ease,box-shadow .22s ease;z-index:1}
+.tiamis-live-chat .shcd-tiamis-agent-stack [data-tiamis-agent-profile].is-active{order:-1;width:52px;height:52px;margin-inline-start:0;border-radius:16px;opacity:1;transform:none;z-index:5;box-shadow:0 10px 25px rgba(20,3,52,.32),0 0 0 3px rgba(255,255,255,.2)}
+.tiamis-live-chat .shcd-tiamis-message.is-admin{align-items:flex-end;gap:7px}
+.tiamis-live-chat .shcd-tiamis-message-avatar{display:grid;width:30px;height:30px;flex:0 0 30px;place-items:center;overflow:hidden;border:2px solid #fff;border-radius:10px;color:#fff;background:linear-gradient(135deg,var(--rc),var(--rc2));box-shadow:0 5px 14px rgba(56,0,138,.18);font-size:12px;font-weight:800}
+.tiamis-live-chat .shcd-tiamis-message-avatar img{width:100%;height:100%;object-fit:cover}
+.tiamis-live-chat .shcd-tiamis-message.is-admin>div{max-width:calc(82% - 37px)}
+
+/* Tiamis — reliable animation runtime, fast message states, reports and ratings */
+.shcd-tiamis-toggle.tiamis-active-animation-float{animation:tiamis-bubble-float 3s ease-in-out infinite!important}
+.shcd-tiamis-toggle.tiamis-active-animation-pulse{animation:tiamis-bubble-pulse 2.1s ease-in-out infinite!important}
+.shcd-tiamis-toggle.tiamis-active-animation-bounce{animation:tiamis-bubble-bounce 2.4s ease-in-out infinite!important}
+.shcd-tiamis-toggle.tiamis-active-animation-shake{animation:tiamis-bubble-shake 4.5s ease-in-out infinite!important}
+.shcd-tiamis-toggle.tiamis-active-animation-swing{transform-origin:top center;animation:tiamis-bubble-swing 3.8s ease-in-out infinite!important}
+.shcd-tiamis-toggle.tiamis-active-animation-wobble{animation:tiamis-bubble-wobble 4.2s ease-in-out infinite!important}
+.shcd-tiamis-toggle.tiamis-active-animation-heartbeat{animation:tiamis-bubble-heartbeat 2.3s ease-in-out infinite!important}
+.shcd-tiamis-toggle.tiamis-active-animation-tada{animation:tiamis-bubble-tada 5s ease-in-out infinite!important}
+.shcd-tiamis-toggle.tiamis-active-animation-jelly{animation:tiamis-bubble-jelly 3.4s ease-in-out infinite!important}
+.shcd-tiamis-toggle.tiamis-active-animation-rotate .shcd-tiamis-toggle-icon{display:inline-block;animation:tiamis-bubble-rotate 4.8s linear infinite!important}
+.shcd-tiamis-toggle.tiamis-active-animation-orbit:before{opacity:1;border:2px dotted rgba(255,255,255,.64);animation:tiamis-bubble-orbit 4s linear infinite!important}
+.shcd-tiamis-toggle.tiamis-active-animation-glow{animation:tiamis-bubble-glow 2.3s ease-in-out infinite!important}
+.shcd-tiamis-toggle.tiamis-active-animation-wave .shcd-tiamis-toggle-icon{display:inline-block;animation:tiamis-bubble-wave 1.8s ease-in-out infinite!important}
+.shcd-tiamis-toggle.tiamis-active-animation-pop{animation:tiamis-bubble-pop 3.8s cubic-bezier(.2,.8,.2,1) infinite!important}
+.shcd-tiamis-toggle.tiamis-active-animation-slide{animation:tiamis-bubble-slide 3.7s ease-in-out infinite!important}
+.tiamis-live-chat.is-closing .shcd-tiamis-panel{animation:tiamis-panel-close .26s cubic-bezier(.55,.06,.68,.19) both!important;pointer-events:none}
+.tiamis-live-chat.is-closing .shcd-tiamis-toggle{animation:tiamis-toggle-close .28s cubic-bezier(.2,.8,.2,1) both!important}
+@keyframes tiamis-panel-close{0%{opacity:1;visibility:visible;transform:none;filter:blur(0)}70%{opacity:.22;transform:translateY(13px) scale(.94);filter:blur(1px)}100%{opacity:0;visibility:hidden;transform:translateY(28px) scale(.82);filter:blur(4px)}}
+@keyframes tiamis-toggle-close{0%{transform:scale(1)}50%{transform:scale(.86) rotate(-8deg)}100%{transform:scale(1)}}
+.shcd-tiamis-message>div{position:relative}
+.shcd-tiamis-message.is-pending>div{opacity:.7;filter:saturate(.72)}
+.shcd-tiamis-message.is-pending>div:after{content:"";position:absolute;inset-inline-end:9px;bottom:8px;width:7px;height:7px;border:2px solid currentColor;border-top-color:transparent;border-radius:50%;animation:tiamis-mini-spin .55s linear infinite}
+.shcd-tiamis-message.is-failed>div{outline:2px solid rgba(239,68,68,.38);opacity:1}
+@keyframes tiamis-mini-spin{to{transform:rotate(360deg)}}
+.shcd-tiamis-report{position:absolute;top:7px;inset-inline-end:7px;display:grid;width:21px;height:21px;place-items:center;padding:0;border:0;border-radius:50%;color:#8a5372;background:rgba(255,255,255,.8);box-shadow:0 3px 10px rgba(40,16,65,.12);cursor:pointer;font:900 12px/1 var(--tiamis-widget-font);opacity:0;transform:scale(.75);transition:.18s ease}
+.shcd-tiamis-message:hover .shcd-tiamis-report,.shcd-tiamis-report:focus{opacity:1;transform:scale(1)}
+.shcd-tiamis-message.is-reported .shcd-tiamis-report{opacity:1;color:#fff;background:#e95076;transform:scale(1)}
+.shcd-tiamis-rating{position:absolute;z-index:30;inset:0;display:grid;place-items:end center;padding:18px;background:rgba(21,7,39,.34);backdrop-filter:blur(8px);animation:tiamis-rating-backdrop .25s ease both}
+.shcd-tiamis-rating[hidden]{display:none!important}
+.shcd-tiamis-rating>div{width:100%;padding:20px;border:1px solid rgba(255,255,255,.72);border-radius:24px;color:#2d1841;background:rgba(255,255,255,.94);box-shadow:0 24px 70px rgba(31,10,55,.3);animation:tiamis-rating-sheet .35s cubic-bezier(.2,.85,.2,1) both}
+.shcd-tiamis-rating h4{margin:0 0 16px;text-align:center;font-size:16px;line-height:1.8}
+.shcd-tiamis-rating-options{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.shcd-tiamis-rating-options button{display:flex;min-width:0;flex-direction:column;align-items:center;gap:7px;padding:11px 5px;border:1px solid rgba(56,0,138,.1);border-radius:16px;color:#4f3864;background:linear-gradient(145deg,#fff,#f0eaf8);box-shadow:5px 5px 12px rgba(56,0,138,.08),-4px -4px 10px #fff;cursor:pointer;transition:.2s ease}
+.shcd-tiamis-rating-options button:hover{color:#fff;background:linear-gradient(135deg,var(--rc),var(--rc2));transform:translateY(-5px) scale(1.04);box-shadow:0 14px 25px rgba(56,0,138,.25)}
+.shcd-tiamis-rating-options i{font-style:normal;font-size:27px;filter:drop-shadow(0 4px 6px rgba(40,20,50,.14))}
+.shcd-tiamis-rating-options span{font-size:10px;white-space:nowrap}
+.shcd-tiamis-rating-later{display:block;margin:13px auto 0;padding:7px 15px;border:0;color:#786b84;background:transparent;cursor:pointer;font-size:11px}
+.shcd-tiamis-rating.is-submitting{pointer-events:none;opacity:.72}
+.shcd-tiamis-rating-thanks{padding:26px;text-align:center;font-size:18px;font-weight:800;animation:tiamis-rating-thanks .55s cubic-bezier(.2,.9,.2,1) both}
+.tiamis-live-chat.is-rating-open .shcd-tiamis-form,.tiamis-live-chat.is-rating-open .shcd-tiamis-body{filter:blur(1px);pointer-events:none}
+.shcd-tiamis-form.is-blocked{opacity:.7;pointer-events:none}
+@keyframes tiamis-rating-backdrop{from{opacity:0}to{opacity:1}}
+@keyframes tiamis-rating-sheet{from{opacity:0;transform:translateY(35px) scale(.94)}to{opacity:1;transform:none}}
+@keyframes tiamis-rating-thanks{0%{opacity:0;transform:scale(.7)}65%{transform:scale(1.08)}100%{opacity:1;transform:scale(1)}}
+@media(max-width:480px){.shcd-tiamis-rating-options{grid-template-columns:repeat(2,1fr)}.shcd-tiamis-report{opacity:.75}}
+
+/* Tiamis — attachments, reactions, editing and offline delivery */
+.shcd-tiamis-form{position:relative;display:grid!important;grid-template-columns:40px minmax(0,1fr) 44px!important;gap:7px!important;align-items:end!important}
+.shcd-tiamis-attach{display:grid;width:40px;height:40px;place-items:center;border:1px solid rgba(56,0,138,.12);border-radius:13px;color:#5b20b6;background:rgba(255,255,255,.82);cursor:pointer;box-shadow:0 6px 15px rgba(56,0,138,.08)}
+.shcd-tiamis-attach input{position:absolute!important;width:1px!important;height:1px!important;opacity:0!important;pointer-events:none!important}
+.shcd-tiamis-attach span{font-size:22px;line-height:1}
+.shcd-tiamis-file-state{grid-column:1/-1;margin-top:2px;padding:6px 9px;border-radius:9px;color:#58466b;background:rgba(242,236,250,.9);font-size:10px;line-height:1.7}
+.shcd-tiamis-message-attachment{display:flex;align-items:center;gap:5px;margin-top:7px;padding:7px 9px;border-radius:10px;color:inherit!important;background:rgba(255,255,255,.38);font-size:11px;text-decoration:none!important;word-break:break-all}
+.shcd-tiamis-message-tools{display:flex;flex-wrap:wrap;gap:4px;margin-top:5px;opacity:0;transform:translateY(3px);transition:.18s ease}
+.shcd-tiamis-message:hover .shcd-tiamis-message-tools,.shcd-tiamis-message:focus-within .shcd-tiamis-message-tools{opacity:1;transform:none}
+.shcd-tiamis-message-tools button,.shcd-tiamis-reactions button{min-width:26px;min-height:25px;padding:3px 7px;border:0;border-radius:8px;color:#5a426c;background:rgba(255,255,255,.56);cursor:pointer;font-family:inherit;font-size:10px}
+.shcd-tiamis-message-tools button:hover,.shcd-tiamis-message-tools button.is-selected{color:#fff;background:#5f13bd}
+.shcd-tiamis-reactions{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
+.shcd-tiamis-message.is-deleted>div>span{opacity:.58;font-style:italic}
+.shcd-tiamis-message.is-edited>div>small:after{margin-inline-start:5px;content:'ویرایش‌شده';opacity:.65}
+.shcd-tiamis-message.is-failed>div{outline:1px solid rgba(215,45,99,.32);box-shadow:0 0 0 4px rgba(215,45,99,.06)}
+.shcd-tiamis-message.is-failed>div:after{display:block;margin-top:5px;color:#b52654;content:'در صف ارسال دوباره';font-size:9px}
+.tiamis-live-chat.is-realtime .shcd-tiamis-header p i{background:#2fd29a;box-shadow:0 0 12px rgba(47,210,154,.8)}
+
+
+/* Tiamis — end-of-conversation rating only */
+.shcd-tiamis-header-actions{display:flex;align-items:center;gap:7px;margin-inline-start:auto}
+.shcd-tiamis-end{
+	min-height:30px;padding:5px 10px;border:1px solid rgba(255,255,255,.28);border-radius:10px;
+	color:#fff;background:rgba(255,255,255,.12);font:inherit;font-size:10px;font-weight:800;cursor:pointer;
+	transition:transform .18s ease,background .18s ease
+}
+.shcd-tiamis-end:hover{background:rgba(255,255,255,.23);transform:translateY(-1px)}
+.shcd-tiamis-end:disabled{opacity:.55;cursor:wait}
+
+
+/* Tiamis — compact, overflow-safe chat header and pre-chat layout. */
+.tiamis-live-chat .shcd-tiamis-panel,
+.tiamis-live-chat .shcd-tiamis-panel *{box-sizing:border-box}
+.tiamis-live-chat .shcd-tiamis-header{
+  position:relative;
+  display:grid;
+  grid-template-columns:auto minmax(0,1fr) auto;
+  grid-template-areas:"actions copy agents";
+  min-height:104px;
+  padding:15px 16px;
+  align-items:center;
+  gap:12px;
+  overflow:hidden;
+}
+.tiamis-live-chat[dir="ltr"] .shcd-tiamis-header{grid-template-areas:"agents copy actions"}
+.tiamis-live-chat .shcd-tiamis-header>.shcd-tiamis-agent-stack{
+  grid-area:agents;
+  min-width:58px;
+  max-width:76px;
+  justify-self:end;
+  align-self:center;
+  flex:none!important;
+}
+.tiamis-live-chat[dir="ltr"] .shcd-tiamis-header>.shcd-tiamis-agent-stack{justify-self:start}
+.tiamis-live-chat .shcd-tiamis-header>.shcd-tiamis-header-copy{
+  grid-area:copy;
+  min-width:0;
+  width:100%;
+  flex:none!important;
+  align-self:center;
+  text-align:start;
+}
+.tiamis-live-chat .shcd-tiamis-header-copy h3{
+  overflow:hidden;
+  margin:0 0 5px;
+  color:#fff;
+  font-size:16px;
+  line-height:1.45;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.tiamis-live-chat .shcd-tiamis-header-copy p{
+  display:grid;
+  grid-template-columns:8px minmax(0,1fr);
+  align-items:start;
+  gap:7px;
+  max-height:3.4em;
+  margin:0;
+  overflow:hidden;
+  color:rgba(255,255,255,.92);
+  font-size:11.5px;
+  line-height:1.7;
+  overflow-wrap:anywhere;
+}
+.tiamis-live-chat .shcd-tiamis-header-copy p i{
+  width:8px;
+  height:8px;
+  margin-top:.5em;
+  flex:0 0 8px;
+}
+.tiamis-live-chat .shcd-tiamis-header>.shcd-tiamis-header-actions{
+  grid-area:actions;
+  display:flex;
+  flex:0 0 auto!important;
+  align-items:center;
+  justify-self:start;
+  gap:7px;
+  margin:0;
+  direction:ltr;
+}
+.tiamis-live-chat[dir="ltr"] .shcd-tiamis-header>.shcd-tiamis-header-actions{
+  justify-self:end;
+  flex-direction:row-reverse;
+}
+.tiamis-live-chat .shcd-tiamis-close{
+  display:grid;
+  width:36px;
+  height:36px;
+  min-width:36px;
+  padding:0;
+  place-items:center;
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:12px;
+  color:#fff;
+  background:rgba(255,255,255,.14);
+  font-family:Arial,sans-serif!important;
+  font-size:24px;
+  font-weight:300;
+  line-height:1;
+}
+.tiamis-live-chat .shcd-tiamis-close:hover{background:rgba(255,255,255,.24)}
+.tiamis-live-chat.is-profile-gate .shcd-tiamis-end{display:none!important}
+.tiamis-live-chat.is-profile-gate .shcd-tiamis-panel{
+  height:auto!important;
+  max-height:min(610px,calc(100vh - 120px));
+}
+.tiamis-live-chat.is-profile-gate .shcd-tiamis-profile:not([hidden]){
+  display:block!important;
+  flex:0 1 auto;
+  width:100%;
+  max-height:calc(100vh - 245px);
+  padding:22px;
+  overflow-x:hidden;
+  overflow-y:auto;
+}
+.tiamis-live-chat .shcd-tiamis-profile h4{margin-top:0}
+@media(max-width:600px){
+  .tiamis-live-chat .shcd-tiamis-header{min-height:98px;padding:13px 14px;gap:9px}
+  .tiamis-live-chat .shcd-tiamis-header>.shcd-tiamis-agent-stack{min-width:44px;max-width:54px}
+  .tiamis-live-chat .shcd-tiamis-agent-stack [data-tiamis-agent-profile]{display:none}
+  .tiamis-live-chat .shcd-tiamis-agent-stack [data-tiamis-agent-profile].is-active,
+  .tiamis-live-chat .shcd-tiamis-agent-stack [data-tiamis-agent-profile]:first-child{display:grid;width:42px;height:42px;margin:0;transform:none;opacity:1}
+  .tiamis-live-chat .shcd-tiamis-header-copy h3{font-size:15px}
+  .tiamis-live-chat .shcd-tiamis-header-copy p{font-size:11px;line-height:1.6;max-height:3.2em}
+  .tiamis-live-chat.is-profile-gate .shcd-tiamis-panel{height:auto!important;max-height:calc(100vh - 96px)}
+  .tiamis-live-chat.is-profile-gate .shcd-tiamis-profile:not([hidden]){max-height:calc(100vh - 215px);padding:20px}
+}
+
+/* Larger, clearer operator profile image without breaking the avatar stack. */
+.tiamis-live-chat .shcd-tiamis-header>.shcd-tiamis-agent-stack{min-width:82px;max-width:96px;height:64px}
+.tiamis-live-chat .shcd-tiamis-agent-stack [data-tiamis-agent-profile]{width:36px;height:36px;border-radius:12px}
+.tiamis-live-chat .shcd-tiamis-agent-stack [data-tiamis-agent-profile].is-active,
+.tiamis-live-chat .shcd-tiamis-agent-stack [data-tiamis-agent-profile]:first-child{width:60px;height:60px;margin-inline-start:0;border-radius:18px;opacity:1;transform:none;box-shadow:0 10px 25px rgba(20,3,52,.32),0 0 0 3px rgba(255,255,255,.2)}
+@media(max-width:600px){.tiamis-live-chat .shcd-tiamis-header>.shcd-tiamis-agent-stack{min-width:58px;max-width:64px;height:56px}.tiamis-live-chat .shcd-tiamis-agent-stack [data-tiamis-agent-profile].is-active,.tiamis-live-chat .shcd-tiamis-agent-stack [data-tiamis-agent-profile]:first-child{width:54px;height:54px;border-radius:16px}}
