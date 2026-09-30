@@ -333,3 +333,9 @@ Tiamis AI Live Chat یک پلتفرم کامل ارتباط با مشتری بر
 # 📄 License
 
 GPL-2.0-or-later
+
+------------------------------------------------------------------------
+
+# Developer
+
+Developed by <a href="https://shabnam.dev"> SHABNAM.DEV </a>
